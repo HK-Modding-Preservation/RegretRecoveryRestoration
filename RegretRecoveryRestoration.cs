@@ -5,7 +5,7 @@ using UnityEngine;
 namespace RegretRecoveryRestoration {
     public class RegretRecoveryRestoration: Mod, IGlobalSettings<GlobalSettings> {
         new public string GetName() => "RegretRecoveryRestoration";
-        public override string GetVersion() => "1.0.0.0";
+        public override string GetVersion() => "1.0.1.0";
 
         public static GlobalSettings globalSettings { get; set; } = new();
         public void OnLoadGlobal(GlobalSettings s) => globalSettings = s;
